@@ -5,7 +5,7 @@
 <title>Project3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -17,21 +17,21 @@
     <a class="hidden" href="#content">Skip to content</a>
     <header id="head">
       <div class ="allElement">
-        <h2 class="hidden">Small Nav</h2>
-        <ul id="headIcons">
-          <li class="headSNS"><a href="#content">F</a></li>
-          <li class="headSNS"><a href="#content">I</a></li>
-          <li class="headSNS"><a href="#content">T</a></li>
-          <li class="lastIcon"><a href="#content">G</a></li>
+        <h2 class="hidden">Header SNS Logo</h2>
+        <ul id="headSNS">
+          <li class="headerSNS"><a href="#"><img src="images/header_facebook.svg" alt="facebook logo"><h3 class="hidden">Facebook</h3></a></li>
+          <li class="headerSNS"><a href="#"><img src="images/header_instagram.svg" alt="Instagram logo"><h3 class="hidden">Instagram</h3></a></li>
+          <li class="headerSNS"><a href="#"><img src="images/header_twitter.svg" alt="Twitter logo"><h3 class="hidden">Twitter</h3></a></li>
+          <li class="headerSNSLast"><a href="#"><img src="images/header_global.svg" alt="Global logo"><h3 class="hidden">Global</h3></a></li>
         </ul>
         <nav>
             <h2 class="hidden">Main Navigation</h2>
             <ul id="headNav">
-              <li class="mainNavi"><a href="w_home.html">Home</a></li>
-              <li class="mainNavi"><a href="w_news.html">News</a></li>
-              <li class="mainLogo"><a href="w_main.html">Logo</a></li>
-              <li class="mainNavi"><a href="#content">Product</a></li>
-              <li class="mainNavi"><a href="w_tour.html">Tour</a></li>
+                <li class="mainNavi"><a href="w_home.html">Home</a></li>
+                <li class="mainNavi"><a href="w_news.html">News</a></li>
+                <li class="mainLogo"><a href="w_main.html"><img src="images/header_logo.svg" alt="COOLA BEER logo"></a></li>
+                <li class="mainNavi"><a href="#">Product</a></li>
+                <li class="mainNavi"><a href="w_tour.html">Tour</a></li>
             </ul>
         </nav>
       </div>
@@ -39,41 +39,90 @@
     <!-- header end -->
     <!-- hero start -->
     <div id="heroImage">
-      <p>hero Image<p>
+      <img src="images/main_hero.jpg" alt="Promotion Video">
     </div>
     <!-- hero end -->
+
     <!--section 1 start -->
-    <section id="aboutUs">
+    <section id="product">
       <div class="allElement">
-        <h2>About Us</h2>
-        <div class="aboutText"><p>About Us info text</p></div>
+        <h2>COOLA's Product</h2>
+        <nav>
+          <ul id="productNav">
+            <li class="proNavF"><a href="#"><p>SPECIAL<br>EDITION</p></a></li>
+            <li class="proNavS"><a href="#"><p>Pils</p></a></li>
+            <li class="proNavT"><a href="#"><p>Beer Mix</p></a></li>
+            <li class="proNavLast"><a href="#"><p>Non-Alchol</p></a></li>
+          </ul>
+        </nav>
+        <div id="coolBeer" class="marginBt3">
+          <div class="coolaBeer"><img src="images/main_fanBeer.jpg" alt="Fan Favorite Beer 1"><h3 class="hidden">product1</h3></div>
+          <div class="coolaBeer"><img src="images/main_fanBeer.jpg" alt="Fan Favorite Beer 2"><h3 class="hidden">product2</h3></div>
+          <div class="coolaBeer"><img src="images/main_fanBeer.jpg" alt="Fan Favorite Beer 3"><h3 class="hidden">product3</h3></div>
+          <div class="coolaBeer"><img src="images/main_fanBeer.jpg" alt="Fan Favorite Beer 4"><h3 class="hidden">product4</h3></div>
+        </div>
+        <div id="coolText">
+          <div class="coolBeerText">
+            <h3 class="coolText1">COOLA'S Pils</h3>
+            <p class="coolParaText1">$1.50</p>
+          </div>
+          <div class="coolBeerText">
+            <h3 class="coolText2">COOLA'S KEY</h3>
+            <p class="coolParaText2">$1.60</p>
+          </div>
+          <div class="coolBeerText">
+            <h3 class="coolText3">COOLA'S SUN</h3>
+            <p class="coolParaText3">$1.55</p>
+          </div>
+          <div class="coolBeerText">
+            <h3 class="coolText4">COOLA'S LEMON</h3>
+            <p class="coolParaText4">$1.50</p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- section1 end -->
-    <!-- section2 start -->
-    <section id="faq" class="allElement">
-      <h2>FAQ</h2>
-      <div class="marginBt">
-        <div class="faqQuestion"><p>ABOUT OUR SERVICE<p></div>
-        <div class="faqQuestion"><p>ABOUT OUR PRODUCT<p></div>
-        <div class="faqQuestion"><p>ABOUT OUR TOUR<p></div>
-        <div class="faqQuestionLast"><p>ABOUT OUR SHOP<p></div>
-      </div>
-    </section>
-    <!-- section2 end -->
 
     <!-- footer start -->
-    <footer id="mainFooter">
-      <div id="footerNav">
-        <div class="footerLeft marginTb2"><p>Footer Logo</p></div>
-        <div class="footerLeft marginTb2"><p>Footer Nav</p></div>
-        <div class="footerRight marginTb"><p>Contact Info</p></div>
-        <div class="footerRight marginTb"><p>SNS Info</p></div>
+    <footer id="mainProFooter">
+      <h2 class="hidden">Footer</h2>
+      <div id="PfooterNav" class="allElement">
+        <a href="w_main.html"><img src="images/footer_logo.svg" alt="Footer Logo"><h3 class="marginTb2 hidden">Footer Logo</h3></a>
+        <div class="marginTb2"><h3 class="hidden">Footer Nav</h3>
+          <ul id="PfooterMainNav">
+            <li class="PfooterNavi"><a href="w_home.html">Home</a></li>
+            <li class="PfooterNavi"><a href="w_news.html">News</a></li>
+            <li class="PfooterNavi"><a href="w_product.html">Product</a></li>
+            <li class="PfooterNavi"><a href="w_tour.html">Tour</a></li>
+          </ul>
+        </div>
+        <div class="marginTb">
+          <h3 class="hidden">Contact Info</h3>
+          <div id="PfooterEmail">
+            <form action="email.php" method="POST" enctype="text/plain">
+              <input name="contactInfo" type="text" placeholder="Enter Email" required>
+              <input name="submit" type="submit" value="Join">
+            </form>
+            <p class="PfooterEmailText">Do you want to be COOL?<br>
+              You can join us by your email!
+            </p>
+          </div>
+        </div>
+        <div class="marginTb"><h3 class="hidden">Social Media</h3>
+          <ul id="footSNS">
+            <li class="PfooterSNS"><a href="#"><img src="images/header_facebook.svg" alt="facebook logo"><h4 class="hidden">Facebook</h4></a></li>
+            <li class="PfooterSNS"><a href="#"><img src="images/header_instagram.svg" alt="Instagram logo"><h4 class="hidden">Instagram</h4></a></li>
+            <li class="PfooterSNS"><a href="#"><img src="images/header_twitter.svg" alt="Twitter logo"><h4 class="hidden">Twitter</h4></a></li>
+            <li class="PfooterSNSLast"><a href="#"><img src="images/header_global.svg" alt="Global logo"><h4 class="hidden">Global</h4></a></li>
+          </ul>
+        </div>
       </div>
-      <div class="copyright"><p>Copyright</p></div>
+      <div class="copyright">
+        <h3 class="hidden">Copyright</h3>
+        <p>&copy; 2022 COOLA'S BEER</p>
+      </div>
     </footer>
     <!-- footer end -->
-
 
 
 <script src="js/main.js"></script>
