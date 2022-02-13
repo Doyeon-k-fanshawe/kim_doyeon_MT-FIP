@@ -138,6 +138,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 #headNav .mainNavi {
@@ -145,18 +146,21 @@ body {
 }
 
 .mainNavi a {
-  color: #2cccd3;
-  line-height: 120px;
   text-decoration: none;
+}
+
+.mainNavi a h3 {
+  color: #2cccd3;
+  margin-top: 55px;
   font-size: 30px;
   text-align: center;
   font-weight: 600 !important;
 }
 
-.mainNavi a:hover {
+.mainNavi a h3:hover {
   color: #007aff;
-  border-bottom: 3px solid #007aff;
-  padding-bottom: 5px;
+  border-bottom: 5px solid #007aff;
+  padding-bottom: 10px;
   cursor: pointer;
 
   -moz-transition: all 0.3s ease-in;
@@ -317,11 +321,15 @@ body {
 
 /* Map */
 
-.map {
+#map {
   margin-bottom: 0;
 }
 
-.map iframe {
+.mapHidden {
+  display: none !important;
+}
+
+#map iframe {
   width: 100%;
   height: 500px;
   border-radius: 7px;
@@ -570,7 +578,7 @@ body {
   margin-bottom: 10px;
 }
 
-.faqQuestion p {
+.faqQuestion h3 {
   font-size: 40px !important;
   font-weight: 600 !important;
   background: #e7f6fd;
@@ -581,15 +589,14 @@ body {
   border-right: 4px double #77cdd3;
 }
 
-.faqQuestion p a {
+.faqQuestion h3 a {
   text-decoration: none;
   color: #2cccd3;
 }
 
-.faqQuestion p a:hover {
+.faqQuestion h3 a:hover {
   cursor: pointer;
   color: #007aff;
-  opacity: 0.8;
 
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -602,7 +609,7 @@ body {
   height: 100px;
 }
 
-.faqQuestionLast p {
+.faqQuestionLast h3 {
   font-size: 40px !important;
   font-weight: 600 !important;
   background: #e7f6fd;
@@ -613,15 +620,14 @@ body {
   border-right: 4px double #77cdd3;
 }
 
-.faqQuestionLast p a {
+.faqQuestionLast h3 a {
   text-decoration: none;
   color: #2cccd3;
 }
 
-.faqQuestionLast p a:hover {
+.faqQuestionLast h3 a:hover {
   cursor: pointer;
   color: #007aff;
-  opacity: 0.8;
 
   -moz-transition: all 0.3s ease-in;
   -webkit-transition: all 0.3s ease-in;
@@ -1425,7 +1431,7 @@ body {
 }
 
 .tourButton4 a p {
-  position: relative;
+  position: absolute;
   top: -200px;
   padding: .8em;
   width: 10em;
