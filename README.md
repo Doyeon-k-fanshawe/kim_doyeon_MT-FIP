@@ -3,15 +3,15 @@
 ## Making a web page
 TODO: Create five Pages (Home, About, Products/Promotions, Advertisements, Contact/Purchase)
 
-● Semantic tagging and Proper Document Outline
-● Static/Fixed width site using flexbox
-● Valid HTML5
-● Valid CSS
-● Browser Compatibility (FF, Chrome)
-● Folder structure
-● Layered working files
-● Link to CSS file, Reset, JS file
-● CSS Animation
+- Semantic tagging and Proper Document Outline
+- Static/Fixed width site using flexbox
+- Valid HTML5
+- Valid CSS
+- Browser Compatibility (FF, Chrome)
+- Folder structure
+- Layered working files
+- Link to CSS file, Reset, JS file
+- CSS Animation
 
 
 ## Contributing
